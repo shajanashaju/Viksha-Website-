@@ -223,37 +223,49 @@ ul {
     margin-bottom: 10vh;
 }
 
-.intermediate-2-wrap {
+
+
+/* Slider Section Styles Starts*/
+
+.slider-wrap .slick-slide{
+    height: auto !important;
+}
+.slider-wrap {
 
     background-color: #24231e;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
     padding: 40px;
+    width: 100%;
 
 }
 
-.intermediate-2-wrap p {
-    color: #8c7258;
+.slider-wrap p {
+    color: #8c7258 !important;
     margin: 5px 0;
     line-height: 28px;
     letter-spacing: 0.5px;
-    width: 50%;
-
+   
     text-align: center;
    margin-bottom: 20px;
     font-size: 16px;
 font-weight: 300;
+padding: 0px 260px;
 }
 
-.intermediate-2-wrap h5 {
+.slider-wrap h5 {
     color: #fff;
     font-size: 16;
+    margin: auto;
+    margin-bottom: 5px;
 
 }
-
-.intermediate-2-wrap {
+.slider-wrap h6 {
+    font-size: 14;
     color: #bfbfbf;
-}
+    margin: auto;
 
+}
+/* Slider Section Styles Ends*/
 .intermediate-3-wrap h2 {
     color: #8c7258;
     font-size: 42px;
@@ -285,7 +297,7 @@ font-weight: 300;
 }
 .footer-wrap{
     background-color: #000000;
-    padding: 120px 0px;
+    padding: 8vh 0vh 0vh 0vh;
 }
 .contact-wrap{
     background-color: #24231e;
@@ -311,5 +323,74 @@ font-weight: 300;
     background-color: var(--theme);
 }
 .Contact-wrap{
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
 }
+.footer-wrap-logo img{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.footer-wrap-data-social-media-icons img{
+    width: 24px;
+    border: .6px solid var(--theme);
+    border-radius: 100%;
+    padding: 5px;
+
+}
+.footer-wrap-data-social-media-icons{
+    width: 140px;
+}
+.footer-wrap-data-social-media-icons a:hover{
+    color: #fff;
+}
+.footer-wrap-links{
+    color: #fff;
+}
+.footer-wrap-links h5{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.footer-wrap-links p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.footer-wrap-links a{
+    color: #fff;
+}
+.footer-wrap-links a:hover{
+    color: #8c7258;
+}
+.contact-wrap-details{
+    color: #fff;
+}
+.contact-wrap-details h5{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact-wrap-details img{
+    width: 20px;
+    margin-right: 10px;
+    height: 20px;
+}
+.contact-wrap-details p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+
+}
+.footer-wrap-data{
+    margin-bottom: 8vh;
+}
+.footer-wrap-map{
+    margin-top: 20px;
+}
+
+.footer-wrap-copyright p{
+    color: #bfbfbf;
+    font-weight: 300;
+}
+
+/* image lightbox */
+
+
