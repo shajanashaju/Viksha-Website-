@@ -1,3 +1,37 @@
+@media (max-width: 1500px) {
+    .contact-wrap h4 {
+        width: 50% !important;
+    }
+
+    .contact-wrap h4 {
+        width: 50% !important;
+    }
+
+    .service-sec-border {
+        padding: 55px !important;
+    }
+
+    .home-wrap {
+        padding-top: 140px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .contact-wrap h4 {
+        width: 60% !important;
+    }
+
+    .contact-wrap p {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-wrap h4 {
+        width: 80% !important;
+    }
+}
+
 @media (max-width: 428px) {
     .menu {
         display: none !important;
@@ -14,11 +48,6 @@
     .home-wrap h1 {
         font-size: 22px !important;
         line-height: 30px !important;
-    }
-
-    .home-wrap img {
-        margin-top: 80px !important;
-        margin-bottom: 80px !important;
     }
 
     .col-md-8 p {
@@ -63,12 +92,14 @@
         border-right: 20px solid transparent !important;
         border-bottom: 40px solid #ff6b6b !important;
         top: -20px !important;
+
     }
 
     .slider-box-element-round {
         width: 50px !important;
         height: 50px !important;
         top: -22px !important;
+        margin-top: 47% !important;
     }
 
     .box-element-round {
@@ -82,6 +113,15 @@
         border-right: 20px solid transparent !important;
         border-bottom: 40px solid #ff6b6b !important;
         top: -20px !important;
+    }
+
+    .contact-wrap p {
+        width: 100% !important;
+    }
+
+    .service-head-wrap h2 {
+        font-size: 40px !important;
+
     }
 
     .about-line-wrap .box-element {
@@ -108,10 +148,6 @@
         width: 100% !important;
     }
 
-    /* .contact-wrap p {
-        width: 100% !important;
-        margin-top: 6% !important;
-    } */
 
     .footer-wrap-sec1 {
         margin-top: 3% !important;
@@ -146,7 +182,7 @@
     }
 
     .contact-background {
-        width: 90% !important;
+        width: 100% !important;
     }
 
     .contact-col {
@@ -157,27 +193,77 @@
         width: 205% !important;
     }
 
-    .contact-about-line {
-        height: 350px !important;
-    }
-
     .contact-box-element-triangle {
         border-left: 10px solid transparent !important;
         border-right: 10px solid transparent !important;
         border-bottom: 22px solid #ff6b6b !important;
         left: -10px !important;
     }
-}
 
-@media (max-width: 360px) {
-    .contact-wrap p {
-        width: 80% !important;
+    .mob-logo-wrap {
+        display: flex;
+        width: auto;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .mob-menu-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mob-menu-icon {
+        width: fit-content;
+        display: flex;
+    }
+
+    .logo-wrap img {
+        width: 70% !important;
+    }
+
+    .home-wrap p {
+        margin-bottom: 30px !important;
+    }
+
+    .footer-wrap-sec {
         margin-top: 6% !important;
     }
 
-    .form-label {
-        font-size: 10px !important;
+    .submit {
+        font-size: 9px !important;
+        padding: 3.5% 3.5% !important;
     }
+
+    .reset {
+        font-size: 9px !important;
+        padding: 3.5% 3.5% !important;
+    }
+
+    .form-label {
+        font-size: 12px !important;
+    }
+
+    .slick-dots button {
+        width: 11px !important;
+        height: 11px !important;
+    }
+
+    .contact-wrap-line {
+        display: none !important;
+    }
+
+    .about-details-title .title {
+        margin-bottom: 30px !important;
+    }
+
+    .service-section-1 p {
+        font-size: 16px !important;
+    }
+}
+
+
+@media (max-width: 360px) {
+
 
     .submit {
         font-size: 10px !important;
@@ -196,7 +282,7 @@
     }
 
     .contact-background {
-        width: 90% !important;
+        width: 100% !important;
     }
 
     .contact-col {
@@ -205,39 +291,5 @@
 
     .form-control {
         width: 205% !important;
-    }
-}
-
-@media (max-width: 1500px) {
-    .contact-wrap h4 {
-        width: 50% !important;
-    }
-
-    .contact-wrap h4 {
-        width: 50% !important;
-    }
-
-    .service-sec-border {
-        padding: 55px !important;
-    }
-
-    .home-wrap {
-        padding-top: 140px !important;
-    }
-}
-
-@media (max-width: 1400px) {
-    .contact-wrap h4 {
-        width: 60% !important;
-    }
-
-    .contact-wrap p {
-        width: 50% !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .contact-wrap h4 {
-        width: 80% !important;
     }
 }
