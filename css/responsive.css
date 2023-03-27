@@ -24,6 +24,16 @@
     .contact-wrap p {
         width: 50% !important;
     }
+
+    .logo-wrap img {
+        margin-top: 7% !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .logo-wrap img {
+        margin-top: 10% !important;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -39,6 +49,7 @@
 
     .mob-menu {
         display: block !important;
+        padding-top: 80% !important;
     }
 
     .home-wrap {
@@ -98,8 +109,8 @@
     .slider-box-element-round {
         width: 50px !important;
         height: 50px !important;
-        top: -22px !important;
-        margin-top: 47% !important;
+        top: -35px !important;
+        margin-top: 50% !important;
     }
 
     .box-element-round {
@@ -117,6 +128,7 @@
 
     .contact-wrap p {
         width: 100% !important;
+        padding-top: 3% !important;
     }
 
     .service-head-wrap h2 {
@@ -146,6 +158,7 @@
     .contact-wrap h4 {
         font-size: 40px !important;
         width: 100% !important;
+        padding-top: 5% !important;
     }
 
 
@@ -246,6 +259,7 @@
     .slick-dots button {
         width: 11px !important;
         height: 11px !important;
+        margin-top: -319% !important;
     }
 
     .contact-wrap-line {
@@ -261,6 +275,23 @@
     }
 }
 
+@media (max-width: 414px) {
+    .slider-box-element-round {
+        width: 50px !important;
+        height: 50px !important;
+        top: -25 !important;
+        margin-top: 50% !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .slider-box-element-round {
+        width: 50px !important;
+        height: 50px !important;
+        top: -15 !important;
+        margin-top: 50% !important;
+    }
+}
 
 @media (max-width: 360px) {
 
@@ -291,5 +322,12 @@
 
     .form-control {
         width: 205% !important;
+    }
+
+    .slider-box-element-round {
+        width: 50px !important;
+        height: 50px !important;
+        top: 0 !important;
+        margin-top: 50% !important;
     }
 }

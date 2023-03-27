@@ -494,7 +494,7 @@ hr {
     padding: 6%;
 }
 
-.about-details-title .number {
+.about-details-title .service {
     font-size: 200px;
     font-weight: 500;
     line-height: 200px;
@@ -658,7 +658,13 @@ hr {
 
 
 /* Slider Section Styles Starts*/
+.service-sec-border svg:hover path {
+    fill: #9e52ff;
+}
 
+.service-sec-border p {
+    margin-bottom: 35px;
+}
 
 
 .slider-about-line {
@@ -768,9 +774,6 @@ hr {
     color: #000;
 }
 
-.service-section-1 a:hover {
-    color: #9e52ff
-}
 
 .service-section-1 a span {
     font-size: 30px;
@@ -1040,4 +1043,78 @@ hr {
 
 .footer-wrap-list {
     padding-top: 4%;
+}
+
+
+/* End User Computing Start */
+
+.about-wrap-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    margin-top: 2%;
+}
+
+.about-head-wrap {
+    padding-top: 7%;
+}
+
+.end-user-wrap {
+    padding-top: 6%;
+}
+
+.end-user-wrap h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.end-user-wrap p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+/* End User Computing Ends */
+
+/* End User Services Start */
+.end-user-service-wrap h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.end-user-bg {
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+    background-color: #000;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 4%;
+}
+
+.end-user-bg img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.end-user-bg img {
+    transition: .4s;
+}
+
+.end-user-service-wrap {
+    padding-top: 5%;
+}
+
+.end-user-service-wrap p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 92%;
+    margin-top: 7%;
+}
+
+.end-user-service-wrap h6 {
+    font-size: 17px;
+    font-weight: 500;
 }
