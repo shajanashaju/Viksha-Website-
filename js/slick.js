@@ -12,4 +12,17 @@ $(document).ready(function () {
         autoplay: false,
 
     });
+    $(".inner-slider").slick({
+
+        // normal options...
+        infinite: false,
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        nextArrow: false,
+        arrows: true,
+        dots: true,
+        adaptiveHeight: false,
+        autoplay: true,
+
+    });
 });

@@ -31,8 +31,21 @@
 }
 
 @media (max-width: 1280px) {
-    .logo-wrap img {
-        margin-top: 10% !important;
+
+    .web-menu {
+        display: none !important;
+    }
+
+    .mob-menu {
+        display: flex !important;
+        justify-content: end;
+        margin-right: 20px;
+    }
+
+    .header-wrapper .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
@@ -40,16 +53,30 @@
     .contact-wrap h4 {
         width: 80% !important;
     }
+
+    .service-head-wrap h2 {
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 428px) {
-    .menu {
-        display: none !important;
+
+    .contact-background {
+        margin-top: 4%;
     }
 
-    .mob-menu {
-        display: block !important;
-        padding-top: 80% !important;
+    .about-content p {
+        line-height: 32px !important;
+    }
+
+    .about-wrap-about {
+        padding: 28px 25px !important;
+        font-size: 13px !important;
+        margin-top: -11% !important;
+    }
+
+    .service-section-1 p {
+        line-height: 32px !important;
     }
 
     .home-wrap {
@@ -63,7 +90,7 @@
 
     .col-md-8 p {
         font-size: 18px !important;
-        line-height: 30px !important;
+        line-height: 25px !important;
     }
 
     .about-line2-wrap h2 {
@@ -154,6 +181,10 @@
         font-size: 20px !important;
     }
 
+    .about-details-title .service {
+        font-size: 130px !important;
+
+    }
 
     .contact-wrap h4 {
         font-size: 40px !important;
@@ -235,7 +266,7 @@
     }
 
     .home-wrap p {
-        margin-bottom: 30px !important;
+        margin-bottom: 10px !important;
     }
 
     .footer-wrap-sec {
@@ -272,6 +303,10 @@
 
     .service-section-1 p {
         font-size: 16px !important;
+    }
+
+    .footer-wrap-sec li a {
+        line-height: 32px !important;
     }
 }
 

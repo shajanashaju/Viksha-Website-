@@ -1,7 +1,7 @@
 /* Common Styles */
 body {
     background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 
@@ -27,9 +27,6 @@ ul {
     --blur: 10px;
 }
 
-.logo-wrap img {
-    width: 50%;
-}
 
 /* header section */
 .header-wrapper {
@@ -40,17 +37,17 @@ ul {
     z-index: 99;
 }
 
-.menu {
+.web-menu {
     list-style: none;
 
 }
 
-.menu .btn-secondary {
+.web-menu .btn-secondary {
     background-color: transparent;
     border-color: transparent;
 }
 
-.menu .btn-secondary:hover {
+.web-menu .btn-secondary:hover {
     color: #9e52ff;
 }
 
@@ -69,8 +66,20 @@ ul {
     box-shadow: none !important;
 }
 
+
+.item {
+    height: auto !important;
+}
+
+.inner-slider .slick-track {
+    transform: translate3d(0, 0px, 0px) !important;
+}
+
+.inner-slider .slick-list {
+    padding-left: 0 !important;
+}
+
 .dropdown-menu {
-    position: absolute;
     z-index: 1000;
     display: none;
     min-width: 84%;
@@ -91,7 +100,7 @@ ul {
 
 .dropdown-item {
     display: block;
-    line-height: 30px;
+    line-height: 15px;
     width: 100%;
     padding: 5px 1px;
     clear: both;
@@ -143,32 +152,32 @@ ul {
 /* .menu li a:hover {
     color: #9e52ff
 } */
-.menu .menu-contact a {
+.web-menu .menu-contact a {
     color: #fff;
 }
 
-.menu .menu-contact a:hover {
+.web-menu .menu-contact a:hover {
     color: #000000;
 }
 
-.menu li {
+.web-menu li {
     list-style: none;
     /* margin-right: 20px; */
 }
 
-.menu a {
+.web-menu a {
     text-decoration: none;
     color: #000000;
     font-weight: 400;
 }
 
-.menu a:hover {
+.web-menu a:hover {
     text-decoration: none;
     color: #9e52ff;
     font-weight: 400;
 }
 
-.menu img {
+.web-menu img {
     width: 20px;
 }
 
@@ -222,8 +231,11 @@ hr {
     position: fixed;
     top: 0;
     left: 100%;
-    background: #000;
+    background: #fff;
     transition: .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mob-menu {
@@ -232,8 +244,28 @@ hr {
 
 .mob-menu-content li {
     text-align: center;
-    margin-bottom: 5px;
-    font-size: 30px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    min-width: 100%;
+    padding: 20px 50px !important;
+    transform: none !important;
+    inset: 0px auto auto 0 !important;
+}
+
+.dropdown-menu li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.mob-menu-list {
+    width: max-content;
+}
+
+.dropdown-menu li a {
+    font-size: 14px !important;
 }
 
 .mob-menu-content ul {
@@ -241,14 +273,41 @@ hr {
 }
 
 .mob-menu-content li a {
-    color: #fff;
+    color: #000;
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
 }
 
-.mob-menu-content img {
+.menu-contact {
+    background-color: #9e52ff;
+}
+
+.mob-menu-closer {
+    top: 30px;
+    position: absolute;
+    right: 30px;
+}
+
+.btn-check:active+.btn-secondary,
+.btn-check:checked+.btn-secondary,
+.btn-secondary.active,
+.btn-secondary:active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #9e52ff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+/* .mob-menu-content img {
     position: absolute;
     top: 0;
     left: 0;
     padding: 30px;
+} */
+.menu-drop-arrow {
+    position: relative;
+    padding: 0;
 }
 
 
@@ -516,7 +575,7 @@ hr {
 
 
 .about-wrap {
-    padding-top: 80px;
+    padding-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -562,7 +621,7 @@ hr {
 
 }
 
-.inter-title-wrap p {
+.inter-title-wrap .inter-content {
     position: relative;
     color: #fff;
     z-index: 3;
@@ -815,6 +874,7 @@ hr {
     font-weight: 400;
 
 }
+
 
 .contact-wrap h4 {
     font-size: 70px;
@@ -1117,4 +1177,169 @@ hr {
 .end-user-service-wrap h6 {
     font-size: 17px;
     font-weight: 500;
+}
+
+/* End User Services Ends */
+
+/* End User Computing Important Starts*/
+
+.end-user-computing {
+    padding-top: 5%;
+}
+
+.end-user-computing h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.end-user-computing-bg {
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+    background-color: #000;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 4%;
+    margin-bottom: 14%;
+}
+
+.end-user-computing-bg img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.end-user-computing-bg img {
+    transition: .4s;
+}
+
+.check-symbol h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.end-user-computing-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+}
+
+.contact-line-wrap {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    margin-top: -4%;
+    margin-bottom: 6%;
+}
+
+.end-user-service-list {
+    padding-top: 2%;
+}
+
+/* Enterprise Computing Starts */
+.enterprise-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    margin-top: 6%;
+}
+
+.enterprise-bg {
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+    background-color: #000;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 4%;
+}
+
+.enterprise-bg img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.enterprise-bg img {
+    transition: .4s;
+}
+
+.networking-solutions {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.networking-check-symbol h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.networking-operation-bg {
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+    background-color: #000;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 4%;
+    margin-bottom: 14%;
+}
+
+.networking-operation-bg img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.networking-operation-bg img {
+    transition: .4s;
+}
+
+.networking-solutions-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+}
+
+.end-user-wrap h6 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 4%;
+}
+
+.networking-check-symbol p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Security Solutions Starts */
+
+.security-service-bg {
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+    background-color: #000;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    margin-top: 4%;
+    margin-bottom: 14%;
+}
+
+.security-service-bg img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.security-service-bg img {
+    transition: .4s;
+}
+
+.security-solutions-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+}
+
+.security-check-symbol h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
